@@ -80,6 +80,7 @@ class Vocab(object):
 
 
 def example_generator(data_path, single_pass):
+    print(f'data_path: {data_path}')
     while True:
         with open(data_path, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)

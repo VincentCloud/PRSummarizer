@@ -1,0 +1,57 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/2.1.1
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/2.1.1
+
+The following have been reloaded with a version change:
+  1) cuda/10.0.130 => cuda/8.0.44
+
+Start Time: Tue Jun 23 12:42:35 PDT 2020
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/python/3.6.3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/python/3.6.3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/project/6025349/vincenth/PRSummarizer/prsum/prsum.py", line 567, in <module>
+    fire.Fire(PRSum)
+  File "/project/6025349/vincenth/.venv/lib/python3.6/site-packages/fire/core.py", line 138, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/project/6025349/vincenth/.venv/lib/python3.6/site-packages/fire/core.py", line 468, in _Fire
+    target=component.__name__)
+  File "/project/6025349/vincenth/.venv/lib/python3.6/site-packages/fire/core.py", line 672, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/project/6025349/vincenth/PRSummarizer/prsum/prsum.py", line 432, in decode
+    cls.decode_raw(params, model_path, ngram_filter, data_file_prefix)
+  File "/project/6025349/vincenth/PRSummarizer/prsum/prsum.py", line 437, in decode_raw
+    decode_processor.decode()
+  File "/project/6025349/vincenth/PRSummarizer/prsum/decode.py", line 110, in decode
+    best_summary = self.beam_search(batch)
+  File "/project/6025349/vincenth/PRSummarizer/prsum/decode.py", line 202, in beam_search
+    enc_features, enc_padding_mask, extend_vocab_zeros, enc_batch_extended, coverage_t)
+  File "/project/6025349/vincenth/.venv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/project/6025349/vincenth/PRSummarizer/prsum/pointer_model.py", line 160, in forward
+    e_t = self.v(torch.tanh( enc_features + self.W_s(s_t_hat) )).squeeze(-1)
+RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0
+Warning: Using ngram_filter when validating!
+max_size of vocab was specified as 50000; we now have 50000 words. Stopping reading.
+Finished constructing vocabulary of 50000 total words. Last word added: pathogens
+data_path: dataset/Juncleaned_readme_data.csv
+cuda:0
+Start Time: Tue Jun 23 12:42:35 PDT 2020
+End Time: 

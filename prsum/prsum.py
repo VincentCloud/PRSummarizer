@@ -456,6 +456,7 @@ class PRSum(object):
         :param end_iter:
         :return:
         """
+        sys.setrecursionlimit(800000)
         model_dir = os.path.dirname(model_pattern)
         model_name_pattern = os.path.basename(model_pattern)
         assert(os.path.isdir(model_dir))

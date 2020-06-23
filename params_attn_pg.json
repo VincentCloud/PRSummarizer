@@ -1,6 +1,6 @@
 {
-    "data_dir": "data",
-    "data_file_suffix": "pr_commits_20_400_100_0.5_nltk.csv",
+    "data_dir": "dataset",
+    "data_file_suffix": "cleaned_readme_data.csv",
     "vocab_path": "data/train.pr_commits_20_400_100_0.5_nltk_vocab.json",
     "model_root": "models/",
 

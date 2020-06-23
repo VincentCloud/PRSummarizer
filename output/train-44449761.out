@@ -1,0 +1,157 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/2.1.1
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/2.1.1
+
+The following have been reloaded with a version change:
+  1) cuda/10.0.130 => cuda/8.0.44
+
+Start Time: Mon Jun 22 13:37:38 PDT 2020
+max_size of vocab was specified as 50000; we now have 50000 words. Stopping reading.
+Finished constructing vocabulary of 50000 total words. Last word added: pathogens
+Dump hyper-parameters to models/train_1592858367/params_1592858367.json.
+cuda:0
+start training.
+Train steps 200, seconds for 200 batch: 38.22 , loss: 4.121422, reward: 0.000000, elapse: 0.0m 39s, remain: 78.0m 59s
+Train steps 400, seconds for 200 batch: 37.59 , loss: 3.781229, reward: 0.000000, elapse: 1.0m 16s, remain: 77.0m 42s
+Train steps 600, seconds for 200 batch: 37.43 , loss: 3.604748, reward: 0.000000, elapse: 1.0m 54s, remain: 76.0m 47s
+Train steps 800, seconds for 200 batch: 36.12 , loss: 3.464513, reward: 0.000000, elapse: 2.0m 30s, remain: 75.0m 20s
+Train steps 1000, seconds for 200 batch: 37.33 , loss: 3.359805, reward: 0.000000, elapse: 3.0m 7s, remain: 74.0m 42s
+Train steps 1200, seconds for 200 batch: 37.54 , loss: 3.273454, reward: 0.000000, elapse: 3.0m 45s, remain: 74.0m 9s
+Train steps 1400, seconds for 200 batch: 36.06 , loss: 3.187401, reward: 0.000000, elapse: 4.0m 21s, remain: 73.0m 10s
+Train steps 1600, seconds for 200 batch: 36.63 , loss: 3.123559, reward: 0.000000, elapse: 4.0m 58s, remain: 72.0m 25s
+Train steps 1800, seconds for 200 batch: 36.53 , loss: 3.061114, reward: 0.000000, elapse: 5.0m 34s, remain: 71.0m 40s
+Train steps 2000, seconds for 200 batch: 36.57 , loss: 3.005188, reward: 0.000000, elapse: 6.0m 11s, remain: 70.0m 57s
+Train steps 2200, seconds for 200 batch: 37.50 , loss: 2.959118, reward: 0.000000, elapse: 6.0m 48s, remain: 70.0m 26s
+Train steps 2400, seconds for 200 batch: 36.72 , loss: 2.909800, reward: 0.000000, elapse: 7.0m 25s, remain: 69.0m 45s
+Train steps 2600, seconds for 200 batch: 36.55 , loss: 2.868998, reward: 0.000000, elapse: 8.0m 1s, remain: 69.0m 4s
+Train steps 2800, seconds for 200 batch: 36.88 , loss: 2.829452, reward: 0.000000, elapse: 8.0m 38s, remain: 68.0m 27s
+Train steps 3000, seconds for 200 batch: 36.59 , loss: 2.789365, reward: 0.000000, elapse: 9.0m 15s, remain: 67.0m 47s
+Train steps 3200, seconds for 200 batch: 38.20 , loss: 2.753415, reward: 0.000000, elapse: 9.0m 53s, remain: 67.0m 18s
+Train steps 3400, seconds for 200 batch: 36.48 , loss: 2.719505, reward: 0.000000, elapse: 10.0m 30s, remain: 66.0m 37s
+Train steps 3600, seconds for 200 batch: 36.03 , loss: 2.686585, reward: 0.000000, elapse: 11.0m 6s, remain: 65.0m 55s
+Train steps 3800, seconds for 200 batch: 37.25 , loss: 2.655073, reward: 0.000000, elapse: 11.0m 43s, remain: 65.0m 19s
+Train steps 4000, seconds for 200 batch: 36.10 , loss: 2.624632, reward: 0.000000, elapse: 12.0m 19s, remain: 64.0m 38s
+Train steps 4200, seconds for 200 batch: 37.21 , loss: 2.591929, reward: 0.000000, elapse: 12.0m 56s, remain: 64.0m 2s
+Train steps 4400, seconds for 200 batch: 37.37 , loss: 2.563873, reward: 0.000000, elapse: 13.0m 34s, remain: 63.0m 27s
+Train steps 4600, seconds for 200 batch: 36.69 , loss: 2.532882, reward: 0.000000, elapse: 14.0m 10s, remain: 62.0m 49s
+Train steps 4800, seconds for 200 batch: 36.54 , loss: 2.505628, reward: 0.000000, elapse: 14.0m 47s, remain: 62.0m 11s
+Train steps 5000, seconds for 200 batch: 36.82 , loss: 2.477333, reward: 0.000000, elapse: 15.0m 24s, remain: 61.0m 33s
+Train steps 5200, seconds for 200 batch: 38.35 , loss: 2.449451, reward: 0.000000, elapse: 16.0m 2s, remain: 61.0m 2s
+Train steps 5400, seconds for 200 batch: 37.27 , loss: 2.421915, reward: 0.000000, elapse: 16.0m 39s, remain: 60.0m 26s
+Train steps 5600, seconds for 200 batch: 36.05 , loss: 2.394817, reward: 0.000000, elapse: 17.0m 15s, remain: 59.0m 46s
+Train steps 5800, seconds for 200 batch: 36.67 , loss: 2.368232, reward: 0.000000, elapse: 17.0m 52s, remain: 59.0m 8s
+Train steps 6000, seconds for 200 batch: 36.92 , loss: 2.342505, reward: 0.000000, elapse: 18.0m 29s, remain: 58.0m 31s
+Train steps 6200, seconds for 200 batch: 36.85 , loss: 2.316342, reward: 0.000000, elapse: 19.0m 6s, remain: 57.0m 53s
+Train steps 6400, seconds for 200 batch: 36.81 , loss: 2.288854, reward: 0.000000, elapse: 19.0m 43s, remain: 57.0m 16s
+Train steps 6600, seconds for 200 batch: 37.26 , loss: 2.264353, reward: 0.000000, elapse: 20.0m 20s, remain: 56.0m 40s
+Train steps 6800, seconds for 200 batch: 36.34 , loss: 2.237910, reward: 0.000000, elapse: 20.0m 56s, remain: 56.0m 1s
+Train steps 7000, seconds for 200 batch: 36.91 , loss: 2.214064, reward: 0.000000, elapse: 21.0m 33s, remain: 55.0m 24s
+Train steps 7200, seconds for 200 batch: 37.11 , loss: 2.189626, reward: 0.000000, elapse: 22.0m 10s, remain: 54.0m 48s
+Train steps 7400, seconds for 200 batch: 36.33 , loss: 2.165291, reward: 0.000000, elapse: 22.0m 47s, remain: 54.0m 10s
+Train steps 7600, seconds for 200 batch: 38.08 , loss: 2.141118, reward: 0.000000, elapse: 23.0m 25s, remain: 53.0m 35s
+Train steps 7800, seconds for 200 batch: 35.74 , loss: 2.117143, reward: 0.000000, elapse: 23.0m 60s, remain: 52.0m 56s
+Train steps 8000, seconds for 200 batch: 36.62 , loss: 2.094264, reward: 0.000000, elapse: 24.0m 37s, remain: 52.0m 18s
+Train steps 8200, seconds for 200 batch: 37.89 , loss: 2.071911, reward: 0.000000, elapse: 25.0m 15s, remain: 51.0m 43s
+Train steps 8400, seconds for 200 batch: 36.42 , loss: 2.049223, reward: 0.000000, elapse: 25.0m 51s, remain: 51.0m 5s
+Train steps 8600, seconds for 200 batch: 37.36 , loss: 2.026340, reward: 0.000000, elapse: 26.0m 29s, remain: 50.0m 29s
+Train steps 8800, seconds for 200 batch: 36.91 , loss: 2.005078, reward: 0.000000, elapse: 27.0m 6s, remain: 49.0m 52s
+Train steps 9000, seconds for 200 batch: 35.91 , loss: 1.982542, reward: 0.000000, elapse: 27.0m 42s, remain: 49.0m 13s
+Train steps 9200, seconds for 200 batch: 36.95 , loss: 1.962109, reward: 0.000000, elapse: 28.0m 18s, remain: 48.0m 37s
+Train steps 9400, seconds for 200 batch: 36.86 , loss: 1.941658, reward: 0.000000, elapse: 28.0m 55s, remain: 47.0m 60s
+Train steps 9600, seconds for 200 batch: 35.92 , loss: 1.920884, reward: 0.000000, elapse: 29.0m 31s, remain: 47.0m 21s
+Train steps 9800, seconds for 200 batch: 37.54 , loss: 1.900879, reward: 0.000000, elapse: 30.0m 9s, remain: 46.0m 45s
+Train steps 10000, seconds for 200 batch: 35.80 , loss: 1.880653, reward: 0.000000, elapse: 30.0m 45s, remain: 46.0m 7s
+Train steps 10200, seconds for 200 batch: 36.75 , loss: 1.861563, reward: 0.000000, elapse: 31.0m 21s, remain: 45.0m 30s
+Train steps 10400, seconds for 200 batch: 36.43 , loss: 1.842558, reward: 0.000000, elapse: 31.0m 58s, remain: 44.0m 52s
+Train steps 10600, seconds for 200 batch: 35.62 , loss: 1.823529, reward: 0.000000, elapse: 32.0m 33s, remain: 44.0m 14s
+Train steps 10800, seconds for 200 batch: 36.89 , loss: 1.804895, reward: 0.000000, elapse: 33.0m 10s, remain: 43.0m 37s
+Train steps 11000, seconds for 200 batch: 36.55 , loss: 1.786486, reward: 0.000000, elapse: 33.0m 47s, remain: 42.0m 60s
+Train steps 11200, seconds for 200 batch: 36.54 , loss: 1.768111, reward: 0.000000, elapse: 34.0m 23s, remain: 42.0m 22s
+Train steps 11400, seconds for 200 batch: 36.55 , loss: 1.751114, reward: 0.000000, elapse: 34.0m 60s, remain: 41.0m 45s
+Train steps 11600, seconds for 200 batch: 36.27 , loss: 1.734303, reward: 0.000000, elapse: 35.0m 36s, remain: 41.0m 8s
+Train steps 11800, seconds for 200 batch: 36.37 , loss: 1.717451, reward: 0.000000, elapse: 36.0m 13s, remain: 40.0m 30s
+Train steps 12000, seconds for 200 batch: 37.35 , loss: 1.700740, reward: 0.000000, elapse: 36.0m 50s, remain: 39.0m 54s
+Train steps 12200, seconds for 200 batch: 36.30 , loss: 1.684352, reward: 0.000000, elapse: 37.0m 26s, remain: 39.0m 17s
+Train steps 12400, seconds for 200 batch: 35.98 , loss: 1.668503, reward: 0.000000, elapse: 38.0m 2s, remain: 38.0m 39s
+Train steps 12600, seconds for 200 batch: 36.18 , loss: 1.653170, reward: 0.000000, elapse: 38.0m 39s, remain: 38.0m 2s
+Train steps 12800, seconds for 200 batch: 35.39 , loss: 1.637576, reward: 0.000000, elapse: 39.0m 14s, remain: 37.0m 24s
+Train steps 13000, seconds for 200 batch: 37.00 , loss: 1.622626, reward: 0.000000, elapse: 39.0m 51s, remain: 36.0m 47s
+Train steps 13200, seconds for 200 batch: 36.72 , loss: 1.607556, reward: 0.000000, elapse: 40.0m 28s, remain: 36.0m 10s
+Train steps 13400, seconds for 200 batch: 35.80 , loss: 1.593044, reward: 0.000000, elapse: 41.0m 3s, remain: 35.0m 33s
+Train steps 13600, seconds for 200 batch: 36.20 , loss: 1.578938, reward: 0.000000, elapse: 41.0m 40s, remain: 34.0m 55s
+Train steps 13800, seconds for 200 batch: 36.10 , loss: 1.564960, reward: 0.000000, elapse: 42.0m 16s, remain: 34.0m 18s
+Train steps 14000, seconds for 200 batch: 35.99 , loss: 1.551110, reward: 0.000000, elapse: 42.0m 52s, remain: 33.0m 41s
+Train steps 14200, seconds for 200 batch: 36.89 , loss: 1.537522, reward: 0.000000, elapse: 43.0m 29s, remain: 33.0m 4s
+Train steps 14400, seconds for 200 batch: 36.03 , loss: 1.523882, reward: 0.000000, elapse: 44.0m 5s, remain: 32.0m 27s
+Train steps 14600, seconds for 200 batch: 36.43 , loss: 1.511193, reward: 0.000000, elapse: 44.0m 41s, remain: 31.0m 50s
+Train steps 14800, seconds for 200 batch: 36.02 , loss: 1.498295, reward: 0.000000, elapse: 45.0m 17s, remain: 31.0m 13s
+Train steps 15000, seconds for 200 batch: 35.76 , loss: 1.485995, reward: 0.000000, elapse: 45.0m 53s, remain: 30.0m 35s
+Train steps 15200, seconds for 200 batch: 37.62 , loss: 1.473633, reward: 0.000000, elapse: 46.0m 31s, remain: 29.0m 59s
+Train steps 15400, seconds for 200 batch: 36.09 , loss: 1.461283, reward: 0.000000, elapse: 47.0m 7s, remain: 29.0m 22s
+Train steps 15600, seconds for 200 batch: 35.88 , loss: 1.449419, reward: 0.000000, elapse: 47.0m 43s, remain: 28.0m 45s
+Train steps 15800, seconds for 200 batch: 36.51 , loss: 1.438058, reward: 0.000000, elapse: 48.0m 19s, remain: 28.0m 8s
+Train steps 16000, seconds for 200 batch: 36.04 , loss: 1.426506, reward: 0.000000, elapse: 48.0m 55s, remain: 27.0m 31s
+Train steps 16200, seconds for 200 batch: 36.76 , loss: 1.415124, reward: 0.000000, elapse: 49.0m 32s, remain: 26.0m 55s
+Train steps 16400, seconds for 200 batch: 36.95 , loss: 1.404158, reward: 0.000000, elapse: 50.0m 9s, remain: 26.0m 18s
+Train steps 16600, seconds for 200 batch: 36.17 , loss: 1.392895, reward: 0.000000, elapse: 50.0m 45s, remain: 25.0m 41s
+Train steps 16800, seconds for 200 batch: 36.06 , loss: 1.382406, reward: 0.000000, elapse: 51.0m 21s, remain: 25.0m 4s
+Train steps 17000, seconds for 200 batch: 35.91 , loss: 1.371950, reward: 0.000000, elapse: 51.0m 57s, remain: 24.0m 27s
+Train steps 17200, seconds for 200 batch: 36.12 , loss: 1.361623, reward: 0.000000, elapse: 52.0m 33s, remain: 23.0m 50s
+Train steps 17400, seconds for 200 batch: 37.35 , loss: 1.351508, reward: 0.000000, elapse: 53.0m 10s, remain: 23.0m 14s
+Train steps 17600, seconds for 200 batch: 35.59 , loss: 1.341492, reward: 0.000000, elapse: 53.0m 46s, remain: 22.0m 37s
+Train steps 17800, seconds for 200 batch: 35.88 , loss: 1.331756, reward: 0.000000, elapse: 54.0m 22s, remain: 21.0m 60s
+Train steps 18000, seconds for 200 batch: 36.07 , loss: 1.322371, reward: 0.000000, elapse: 54.0m 58s, remain: 21.0m 23s
+Train steps 18200, seconds for 200 batch: 36.30 , loss: 1.312942, reward: 0.000000, elapse: 55.0m 34s, remain: 20.0m 46s
+Train steps 18400, seconds for 200 batch: 36.20 , loss: 1.303567, reward: 0.000000, elapse: 56.0m 10s, remain: 20.0m 9s
+Train steps 18600, seconds for 200 batch: 36.11 , loss: 1.294515, reward: 0.000000, elapse: 56.0m 47s, remain: 19.0m 32s
+Train steps 18800, seconds for 200 batch: 35.88 , loss: 1.285360, reward: 0.000000, elapse: 57.0m 22s, remain: 18.0m 56s
+Train steps 19000, seconds for 200 batch: 35.98 , loss: 1.276531, reward: 0.000000, elapse: 57.0m 59s, remain: 18.0m 19s
+Train steps 19200, seconds for 200 batch: 37.26 , loss: 1.267698, reward: 0.000000, elapse: 58.0m 36s, remain: 17.0m 42s
+Train steps 19400, seconds for 200 batch: 35.77 , loss: 1.258893, reward: 0.000000, elapse: 59.0m 12s, remain: 17.0m 6s
+Train steps 19600, seconds for 200 batch: 37.21 , loss: 1.250266, reward: 0.000000, elapse: 59.0m 49s, remain: 16.0m 29s
+Train steps 19800, seconds for 200 batch: 35.37 , loss: 1.241729, reward: 0.000000, elapse: 60.0m 24s, remain: 15.0m 52s
+Train steps 20000, seconds for 200 batch: 36.00 , loss: 1.233616, reward: 0.000000, elapse: 60.0m 60s, remain: 15.0m 15s
+Train steps 20200, seconds for 200 batch: 36.75 , loss: 1.225575, reward: 0.000000, elapse: 61.0m 37s, remain: 14.0m 39s
+Train steps 20400, seconds for 200 batch: 35.66 , loss: 1.217804, reward: 0.000000, elapse: 62.0m 13s, remain: 14.0m 2s
+Train steps 20600, seconds for 200 batch: 36.43 , loss: 1.210084, reward: 0.000000, elapse: 62.0m 49s, remain: 13.0m 25s
+Train steps 20800, seconds for 200 batch: 36.41 , loss: 1.202510, reward: 0.000000, elapse: 63.0m 26s, remain: 12.0m 49s
+Train steps 21000, seconds for 200 batch: 35.42 , loss: 1.194773, reward: 0.000000, elapse: 64.0m 1s, remain: 12.0m 12s
+Train steps 21200, seconds for 200 batch: 36.51 , loss: 1.187595, reward: 0.000000, elapse: 64.0m 37s, remain: 11.0m 35s
+Train steps 21400, seconds for 200 batch: 35.97 , loss: 1.180444, reward: 0.000000, elapse: 65.0m 13s, remain: 10.0m 59s
+Train steps 21600, seconds for 200 batch: 35.59 , loss: 1.173151, reward: 0.000000, elapse: 65.0m 49s, remain: 10.0m 22s
+Train steps 21800, seconds for 200 batch: 37.66 , loss: 1.166054, reward: 0.000000, elapse: 66.0m 27s, remain: 9.0m 46s
+Train steps 22000, seconds for 200 batch: 35.09 , loss: 1.158828, reward: 0.000000, elapse: 67.0m 2s, remain: 9.0m 9s
+Train steps 22200, seconds for 200 batch: 36.60 , loss: 1.152017, reward: 0.000000, elapse: 67.0m 38s, remain: 8.0m 32s
+Train steps 22400, seconds for 200 batch: 36.26 , loss: 1.145192, reward: 0.000000, elapse: 68.0m 15s, remain: 7.0m 56s
+Train steps 22600, seconds for 200 batch: 35.92 , loss: 1.138456, reward: 0.000000, elapse: 68.0m 51s, remain: 7.0m 19s
+Train steps 22800, seconds for 200 batch: 36.69 , loss: 1.131666, reward: 0.000000, elapse: 69.0m 27s, remain: 6.0m 43s
+Train steps 23000, seconds for 200 batch: 35.96 , loss: 1.125090, reward: 0.000000, elapse: 70.0m 3s, remain: 6.0m 6s
+Train steps 23200, seconds for 200 batch: 36.01 , loss: 1.118494, reward: 0.000000, elapse: 70.0m 39s, remain: 5.0m 29s
+Train steps 23400, seconds for 200 batch: 36.16 , loss: 1.112307, reward: 0.000000, elapse: 71.0m 16s, remain: 4.0m 53s
+Train steps 23600, seconds for 200 batch: 35.91 , loss: 1.106312, reward: 0.000000, elapse: 71.0m 51s, remain: 4.0m 16s
+Train steps 23800, seconds for 200 batch: 35.80 , loss: 1.100264, reward: 0.000000, elapse: 72.0m 27s, remain: 3.0m 40s
+Train steps 24000, seconds for 200 batch: 37.00 , loss: 1.094304, reward: 0.000000, elapse: 73.0m 4s, remain: 3.0m 3s
+Train steps 24200, seconds for 200 batch: 36.44 , loss: 1.088313, reward: 0.000000, elapse: 73.0m 41s, remain: 2.0m 27s
+Train steps 24400, seconds for 200 batch: 36.18 , loss: 1.082569, reward: 0.000000, elapse: 74.0m 17s, remain: 1.0m 50s
+Train steps 24600, seconds for 200 batch: 36.25 , loss: 1.076857, reward: 0.000000, elapse: 74.0m 53s, remain: 1.0m 14s
+Train steps 24800, seconds for 200 batch: 35.65 , loss: 1.071100, reward: 0.000000, elapse: 75.0m 29s, remain: 0.0m 37s
+Train steps 25000, seconds for 200 batch: 36.88 , loss: 1.065521, reward: 0.000000, elapse: 76.0m 6s, remain: 0.0m 0s
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/project/6025349/vincenth/.venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+end training.
+Start Time: Mon Jun 22 13:37:38 PDT 2020
+End Time: Mon Jun 22 14:55:48 PDT 2020

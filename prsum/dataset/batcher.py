@@ -280,10 +280,10 @@ class Batcher(object):
             e = next(example_generator)  # e is a tf.Example
             try:
                 example_id = e['id']
-                article_text = e['article']
-                abstract_text = e['abstract']
+                article_text = e['readme']
+                abstract_text = e['summary']
             except ValueError:
-                tf.logging.error('Failed to get article or abstract from example')
+                tf.logging.error('Failed to get summary or readme from example')
                 continue
             if len(article_text) == 0:  # See https://github.com/abisee/pointer-generator/issues/1
                 # tf.logging.warning('Found an example with empty article text. Skipping it.')

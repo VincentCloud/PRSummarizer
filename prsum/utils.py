@@ -210,7 +210,7 @@ def try_load_state(model_file_path):
     state = None
     while True:
         if counter >= 10:
-            raise FileNotFoundError
+            raise FileNotFoundError(model_file_path)
         try:
             state = torch.load(model_file_path, map_location=lambda storage, location: storage)
         except:

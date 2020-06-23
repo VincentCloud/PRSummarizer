@@ -104,6 +104,7 @@ class BeamSearch(object):
         refs = []
         hyps = []
         batch = self.batcher.next_batch()
+        max_combination = 0
         while batch is not None:
             # Run beam search to get best Hypothesis
             best_summary = self.beam_search(batch)
@@ -115,6 +116,9 @@ class BeamSearch(object):
 
             # there four duplicate exmaples, so we just need one of them
             original_abstract = batch.original_abstracts[0]
+            combination = len(original_abstract.split()) * len(decoded_words)
+            if combination > max_combination:
+                max_combination = combination
 
             utils.write_for_rouge(original_abstract, decoded_words, counter,
                                   self._rouge_ref_dir, self._rouge_dec_dir)
@@ -127,6 +131,8 @@ class BeamSearch(object):
                 start = time.time()
 
             batch = self.batcher.next_batch()
+        
+        print(f'max_combination: {max_combination}')
 
         print("Decoder has finished reading dataset for single_pass.")
         rouge = Rouge()

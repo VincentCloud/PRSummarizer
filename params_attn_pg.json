@@ -1,7 +1,7 @@
 {
     "data_dir": "data",
-    "data_file_suffix": "pr_commits_20_400_100_0.5_nltk.csv",
-    "vocab_path": "data/train.pr_commits_20_400_100_0.5_nltk_vocab.json",
+    "data_file_suffix": "cleaned_readme_data.csv",
+    "vocab_path": "data/vocab_readme.json",
     "model_root": "models/",
 
     "hidden_dim": 256,
